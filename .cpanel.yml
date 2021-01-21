@@ -1,6 +1,10 @@
 ---
 deployment:
  tasks:
- - export DEPLOYPATH=/home/user/public_html/projecttracker/
+ - export DEPLOYPATH=/home/lz49pnqegh9s/public_html/projecttracker/
  - /bin/cp index.php $DEPLOYPATH
+ - /bin/cp template.php $DEPLOYPATH
+ - /bin/cp README.md $DEPLOYPATH
  - /bin/cp -R css $DEPLOYPATH
+ - /bin/cp -R includes $DEPLOYPATH
+ - /bin/cp -R js $DEPLOYPATH
