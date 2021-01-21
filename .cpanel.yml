@@ -1,0 +1,6 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/user/public_html/projecttracker/
+ - /git index.php $DEPLOYPATH
+ - /git/css bootstrap.css $DEPLOYPATH
