@@ -1,6 +1,6 @@
 <?php 
 	include("includes/php-global.php");
-	include("includes/php-auth.php");
+	// include("includes/php-auth.php");
 	$CURRENT_PAGE = "Home";
 ?>
 <!DOCTYPE html>
