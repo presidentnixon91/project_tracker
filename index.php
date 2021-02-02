@@ -20,8 +20,8 @@
 	<div class="main-content" id="">
 		<div class="container">
 			<div class="row">
-				<div class="">
-					
+				<div class="dashboard task-view">
+					<!-- Display dashboard of task lists -->
 				</div>
 			</div>
 		</div>

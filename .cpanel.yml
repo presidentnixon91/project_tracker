@@ -8,3 +8,4 @@ deployment:
  - /bin/cp -R css $DEPLOYPATH
  - /bin/cp -R includes $DEPLOYPATH
  - /bin/cp -R js $DEPLOYPATH
+ - /bin/cp -R content $DEPLOYPATH
